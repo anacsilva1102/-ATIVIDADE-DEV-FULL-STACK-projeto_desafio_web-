@@ -71,6 +71,7 @@ console.log(`A soma dos números ${num3 - num2}`)
    //OPERADORES RELACIONAIS
    /*
 
+
       == IGUAL
       > MAIOR
       < MENOR
@@ -79,12 +80,14 @@ console.log(`A soma dos números ${num3 - num2}`)
       = DIFERENTE,
   */
 
+      
  // OPERADORES LÓGICO 
  /*
      
        && E
        || OU
     
+
  */
 console.log('TESTE DE RELACIONAIS', 10 == 5)
 console.log('TESTE DE RELACIONAIS', 10 !== 5)
@@ -111,6 +114,7 @@ if(idade >= 18){
   70 ACIMA - 3 ANOS 
  */
 
+ //ANINHAMENTI DE IF
   if (idade < 18){
     console.log(`COM A IDADE DE ${idade}, NÃO É PERMITIDO POSSUIR CNH`)
 }else if (idade < 50){
